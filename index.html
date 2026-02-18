@@ -1,0 +1,587 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Prashant pandey — Final Year Tech Student</title>
+    <meta
+      name="description"
+      content="Final year tech student portfolio — projects, skills, internships, certifications and contact."
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Scroll Progress Indicator -->
+    <div class="progress-wrap" aria-hidden="true">
+      <div class="progress-bar"></div>
+    </div>
+
+    <!-- Sticky Navigation -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="logo" href="#">Prashant pandey</a>
+
+        <nav class="nav" aria-label="Primary Navigation">
+          <ul class="nav__list">
+            <li><a data-scroll href="#about" class="nav__link">About</a></li>
+            <li><a data-scroll href="#skills" class="nav__link">Skills</a></li>
+            <li>
+              <a data-scroll href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li>
+              <a data-scroll href="#experience" class="nav__link">Experience</a>
+            </li>
+            <li>
+              <a data-scroll href="#certifications" class="nav__link"
+                >Certifications</a
+              >
+            </li>
+            <li>
+              <a data-scroll href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile navigation (slide-down) -->
+    <div class="mobile-nav" role="dialog" aria-modal="true" hidden>
+      <ul>
+        <li><a data-scroll href="#about">About</a></li>
+        <li><a data-scroll href="#skills">Skills</a></li>
+        <li><a data-scroll href="#projects">Projects</a></li>
+        <li><a data-scroll href="#experience">Experience</a></li>
+        <li><a data-scroll href="#certifications">Certifications</a></li>
+        <li><a data-scroll href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero section" id="hero">
+        <div class="container hero-grid">
+          <div class="hero-content reveal">
+            <p class="eyebrow">Final Year Tech Student</p>
+            <h1 class="hero-title">Prashant pandey</h1>
+            <p class="hero-subtitle">Aspiring Software Developer</p>
+
+            <div class="typing">
+              <span id="typed" aria-live="polite"></span>
+              <span class="caret" aria-hidden="true"></span>
+            </div>
+
+            <div class="hero-ctas">
+              <a data-scroll href="#projects" class="btn btn-primary"
+                >View Projects</a
+              >
+              <a href="resume.pdf" class="btn btn-ghost" download
+                >Download Resume</a
+              >
+            </div>
+          </div>
+
+          <div class="hero-card reveal">
+            <div class="card-inner">
+              <div class="avatar-placeholder" aria-hidden="true">
+                <!-- Decorative SVG avatar placeholder -->
+                <svg
+                  width="120"
+                  height="120"
+                  viewBox="0 0 120 120"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="120" height="120" rx="20" fill="url(#g)" />
+                  <defs>
+                    <linearGradient id="g" x1="0" x2="1">
+                      <stop offset="0" stop-color="#6d28d9" />
+                      <stop offset="1" stop-color="#3b82f6" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <h3>Hi — I build performant web apps</h3>
+              <p class="muted">
+                Final-year technology student focused on full-stack development,
+                algorithms, and AI-driven projects.
+              </p>
+
+              <div class="stats">
+                <div class="stat">
+                  <strong class="counter" data-target="12">0</strong>
+                  <small>Projects</small>
+                </div>
+                <div class="stat">
+                  <strong class="counter" data-target="18">0</strong>
+                  <small>Technologies</small>
+                </div>
+                <div class="stat">
+                  <strong class="counter" data-target="2">0</strong>
+                  <small>Internships</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- decorative animated gradient -->
+        <div class="bg-animated" aria-hidden="true"></div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container reveal">
+          <div class="section-header">
+            <h2>About Me</h2>
+            <p class="muted">
+              Short introduction, goals, education and passion for technology.
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-text card glass">
+              <p>
+                I'm a final-year technology student with strong fundamentals in
+                data structures, algorithms and modern web development.
+                Passionate about building scalable systems and learning
+                state-of-the-art AI techniques.
+              </p>
+
+              <h4>Career Goals</h4>
+              <p>
+                Secure a software engineering role where I can build impactful
+                products, learn from peers, and contribute to open source.
+              </p>
+
+              <h4>Education</h4>
+              <p>Bachelor of Technology — Computer Science (expected 2026)</p>
+            </div>
+
+            <div class="about-cards">
+              <div class="card glass reveal-sm">
+                <h4>Problem Solving</h4>
+                <p class="muted">
+                  Competitive programming & algorithmic thinking.
+                </p>
+              </div>
+              <div class="card glass reveal-sm">
+                <h4>AI & ML</h4>
+                <p class="muted">
+                  Projects involving ML models and data pipelines.
+                </p>
+              </div>
+              <div class="card glass reveal-sm">
+                <h4>Modern Web</h4>
+                <p class="muted">
+                  Progressive Web Apps, REST/GraphQL, performance optimizations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="container reveal">
+          <div class="section-header">
+            <h2>Skills</h2>
+            <p class="muted">Categorized skills with animated progress bars.</p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card card glass reveal-sm">
+              <h4>Programming Languages</h4>
+              <div class="skill">
+                <label>Python</label>
+                <div class="progress" data-percent="90"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>JavaScript</label>
+                <div class="progress" data-percent="88"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>C++</label>
+                <div class="progress" data-percent="75"><span></span></div>
+              </div>
+            </div>
+
+            <div class="skill-card card glass reveal-sm">
+              <h4>Frontend</h4>
+              <div class="skill">
+                <label>HTML / CSS</label>
+                <div class="progress" data-percent="95"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>Vanilla JS</label>
+                <div class="progress" data-percent="85"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>Responsive Design</label>
+                <div class="progress" data-percent="90"><span></span></div>
+              </div>
+            </div>
+
+            <div class="skill-card card glass reveal-sm">
+              <h4>Backend & Database</h4>
+              <div class="skill">
+                <label>Node.js</label>
+                <div class="progress" data-percent="78"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>SQL / PostgreSQL</label>
+                <div class="progress" data-percent="70"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>REST APIs</label>
+                <div class="progress" data-percent="82"><span></span></div>
+              </div>
+            </div>
+
+            <div class="skill-card card glass reveal-sm">
+              <h4>Tools</h4>
+              <div class="skill">
+                <label>Git & GitHub</label>
+                <div class="progress" data-percent="92"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>Docker</label>
+                <div class="progress" data-percent="60"><span></span></div>
+              </div>
+              <div class="skill">
+                <label>CI / CD</label>
+                <div class="progress" data-percent="65"><span></span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container reveal">
+          <div class="section-header">
+            <h2>Projects</h2>
+            <p class="muted">
+              Selected projects — hover for details and quick links.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Project Card -->
+            <article class="project-card card glass reveal-sm">
+              <div class="project-media" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3>AI Chat Assistant</h3>
+                <p class="muted">
+                  A conversational assistant that integrates search and local
+                  knowledge retrieval.
+                </p>
+                <p class="tech">Python · Flask · OpenAI · SQLite</p>
+                <div class="project-ctas">
+                  <a class="btn btn-sm" href="#" target="_blank" rel="noopener"
+                    >Live Demo</a
+                  >
+                  <a
+                    class="btn btn-sm btn-ghost"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card card glass reveal-sm">
+              <div class="project-media" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3>Portfolio CMS</h3>
+                <p class="muted">
+                  A lightweight headless CMS for publishing projects quickly.
+                </p>
+                <p class="tech">Node.js · Express · MongoDB · Netlify</p>
+                <div class="project-ctas">
+                  <a class="btn btn-sm" href="#" target="_blank" rel="noopener"
+                    >Live Demo</a
+                  >
+                  <a
+                    class="btn btn-sm btn-ghost"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card card glass reveal-sm">
+              <div class="project-media" aria-hidden="true"></div>
+              <div class="project-body">
+                <h3>Algorithm Visualizer</h3>
+                <p class="muted">
+                  Interactive visualizations for sorting and graph algorithms.
+                </p>
+                <p class="tech">JavaScript · Canvas · Web Animations</p>
+                <div class="project-ctas">
+                  <a class="btn btn-sm" href="#" target="_blank" rel="noopener"
+                    >Live Demo</a
+                  >
+                  <a
+                    class="btn btn-sm btn-ghost"
+                    href="#"
+                    target="_blank"
+                    rel="noopener"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience / Internship -->
+      <section class="section" id="experience">
+        <div class="container reveal">
+          <div class="section-header">
+            <h2>Experience</h2>
+            <p class="muted">
+              Internships and practical experience delivered in a timeline
+              layout.
+            </p>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal-sm">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content card glass">
+                <h4>Software Engineering Intern — TechCorp</h4>
+                <span class="muted">May 2024 — Aug 2024</span>
+                <ul>
+                  <li>
+                    Implemented REST APIs and optimized DB queries (PostgreSQL).
+                  </li>
+                  <li>
+                    Reduced response latency by 30% through caching and query
+                    tuning.
+                  </li>
+                  <li>Technologies: Node.js, Express, PostgreSQL, Docker</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal-sm">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content card glass">
+                <h4>Frontend Developer Intern — DesignLabs</h4>
+                <span class="muted">Jun 2023 — Sep 2023</span>
+                <ul>
+                  <li>
+                    Built responsive UI components and improved accessibility.
+                  </li>
+                  <li>
+                    Introduced performance budgets and reduced bundle size by
+                    18%.
+                  </li>
+                  <li>Technologies: HTML, CSS, JavaScript, Lighthouse</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="section" id="certifications">
+        <div class="container reveal">
+          <div class="section-header">
+            <h2>Certifications</h2>
+            <p class="muted">Verified courses and certificates.</p>
+          </div>
+
+          <div class="certs-grid">
+            <div class="cert card glass reveal-sm">
+              <h4>Machine Learning</h4>
+              <p class="muted">Coursera — 2024</p>
+            </div>
+            <div class="cert card glass reveal-sm">
+              <h4>Full-Stack Web Development</h4>
+              <p class="muted">Udemy — 2023</p>
+            </div>
+            <div class="cert card glass reveal-sm">
+              <h4>Data Structures & Algorithms</h4>
+              <p class="muted">HackerRank — 2022</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container reveal">
+          <div class="section-header">
+            <h2>Contact</h2>
+            <p class="muted">
+              Get in touch — open to internships and new opportunities.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <form id="contact-form" class="contact-form card glass" novalidate>
+              <label class="field">
+                <span>Name</span>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+                <small class="error" aria-live="polite"></small>
+              </label>
+
+              <label class="field">
+                <span>Email</span>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+                <small class="error" aria-live="polite"></small>
+              </label>
+
+              <label class="field">
+                <span>Message</span>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Tell me about your project..."
+                  required
+                ></textarea>
+                <small class="error" aria-live="polite"></small>
+              </label>
+
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+                <button type="reset" class="btn btn-ghost">Reset</button>
+              </div>
+
+              <p id="form-status" class="muted" aria-live="polite"></p>
+            </form>
+
+            <aside class="contact-info card glass reveal-sm">
+              <h3>Let's connect</h3>
+              <p class="muted">
+                Open to internships, mentorships and collaborative projects.
+              </p>
+
+              <div class="socials">
+                <a
+                  href="#"
+                  aria-label="LinkedIn"
+                  title="LinkedIn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <!-- LinkedIn SVG -->
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.2 24h4.56V7.98H.2V24zM8.98 7.98V24h4.56v-8.22c0-4.72 6.04-5.1 6.04 0V24h4.56V13.64c0-9.84-11.14-9.48-14.12-4.63V7.98H8.98z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  aria-label="GitHub"
+                  title="GitHub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <!-- GitHub SVG -->
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55 0-.27-.01-1-.01-1.96-3.2.69-3.88-1.42-3.88-1.42-.52-1.33-1.27-1.69-1.27-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.68 1.25 3.33.96.1-.74.4-1.25.72-1.54-2.56-.29-5.25-1.29-5.25-5.74 0-1.27.46-2.31 1.18-3.12-.12-.29-.51-1.47.11-3.06 0 0 .96-.31 3.15 1.18.91-.25 1.89-.38 2.86-.38.97 0 1.95.13 2.86.38 2.18-1.5 3.14-1.18 3.14-1.18.62 1.59.23 2.77.11 3.06.73.81 1.18 1.85 1.18 3.12 0 4.46-2.7 5.44-5.28 5.72.41.36.78 1.09.78 2.2 0 1.59-.01 2.87-.01 3.26 0 .3.2.65.79.54C20.71 21.38 24 17.08 24 12 24 5.65 18.35.5 12 .5z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="mailto:you@example.com"
+                  aria-label="Email"
+                  title="Email"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </div>
+
+              <hr />
+              <p class="muted small">
+                Prefer email? Reach out at
+                <a href="mailto:you@example.com">you@example.com</a>
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Back to top -->
+    <button class="back-to-top" aria-label="Back to top" title="Back to top">
+      ▲
+    </button>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>
+          © <span id="year"></span> Prashant pandey — Final Year Technology
+          Student. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
